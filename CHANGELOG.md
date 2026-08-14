@@ -3,6 +3,12 @@
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 规范，
 版本号遵循 [Semantic Versioning](https://semver.org/lang/zh-CN/)。
 
+## [0.1.3] - 2026-08-14
+
+### 修复
+
+- 🐛 **修复命令不可用**：修正打包时 `--no-dependencies` 导致 `ws` 模块未被包含进 `.vsix`，插件激活失败，`mdPreviewBridge.openInBrowser` 命令无法注册
+
 ## [0.1.2] - 2026-08-05
 
 ### 新增
